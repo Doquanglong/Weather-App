@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+  }
+  input,
+  button {
+    @apply !outline-none border-0;
+    font-family: inherit;
+  }
+  ::placeholder {
+    @apply !text-gray-700;
+  }
+}
